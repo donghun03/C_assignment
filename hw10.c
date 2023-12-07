@@ -10,8 +10,8 @@ int main() {
     City city[3];
     printf("Input three cities: \n");
     for (int i = 0; i < 3; i++) {
-        printf("Name> "); scanf("%s", &city[i].Name);
-        printf("Country> "); scanf("%s", &city[i].Country);
+        printf("Name> "); scanf("%s", city[i].Name);
+        printf("Country> "); scanf("%s", city[i].Country);
         printf("Population> "); scanf("%d", &city[i].Population);
     }
     printf("Printing the three cities: \n");
